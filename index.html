@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/hamburger.css">
+	<title>Koki Motomura's Portfolio 2022</title>
+</head>
+<body>
+	<header>
+		<div class="site-logo">
+			Koki Motomura's Portfolio 2022
+		</div>
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+
+		  <nav class="globalMenuSp">
+			<div class="res-active-header">
+			</div>
+			  <ul id="activeElements">
+				<div style="height:35px;"></div>
+				  <li><a href="#skill">スキル</a></li>
+				  <li><a href="#works">作品</a></li>
+			  </ul>
+			  <div style="height:40px">
+			  </div>
+		  </nav>
+	</header>
+	<div class="wrapper">		
+		<div class="first-view">
+			<img class="my-icon" src="img/my-icon.jpg" alt="本村光輝のアイコン" width="200" height="200">
+			<h1 class="my-name">本村光輝</h1>
+			<p class="self-introduction">松山短期大学卒。<br>2020年9月に國枝食品株式会社にてシステムエンジニア廉プログラマーとして社内の業務システムの新機能開発、改修、保守・運用などの業務を半年間行いました。
+				<br>その後2021年5月からテナアダムでアルバイトのコーダー、プログラマーとして勤務を開始しました（2022年4月退職予定）。</p>
+		</div>
+
+		<div id="skill" class="skill-set">
+			<h2>スキル</h2>
+			<table>
+				<tbody>
+					<tr>
+						<td class="skill-name">HTML5</td>
+						<td>命名規則に沿ったコーディングができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">CSS3</td>
+						<td>文字や要素の装飾だけでなく、レスポンシブ対応、hover時のエフェクト、擬似要素の追加などができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">Sass</td>
+						<td>実務での使用経験が浅く、よく使う色を変数で管理する、ネストでCSS3を効率的に書く程度のことができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">jQuery</td>
+						<td>ハンバーガーメニュー、アコーディオンメニュー、slickなどのライブラリを用いたギミック、クリック時のアクションを設定するなどのことができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">JavaScript</td>
+						<td>PHPとSQLでデータベースから取得したデータをjsonに変換、ID、クラス、data属性の値の取得などのことができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">PHP</td>
+						<td>セッション管理、お問い合わせが送信されたらメールで運営とクライアントに通知するフォームの作成、WordPressの記事投稿に関するシステム開発、ログインとログアウトのロジック作成、SQLと連携したデータ登録や検索などのことができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">Adobe Xd</td>
+						<td>ワイヤーフレーム、簡単なデザインカンプを自作できる程度のことができます。</td>
+					</tr>
+					<tr>
+						<td class="skill-name">Adobe Photoshop</td>
+						<td>画像にフィルターをかける、文字を添付する程度のことができます。</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="works" class="row">
+			<a href="work1.html" class="item">
+				<div class="sample1">
+					<img class="test-img" src="img/work-img1.png" alt="サムネ" />
+				</div>
+				<p class="item-title">
+					<p class="work-title">本ポートフォリオサイト</p>
+				</p>
+			</a>
+			<a href="work2.html" class="item">
+				<div class="sample1">
+					<img class="test-img" src="img/work-img2.png" alt="サムネ" />
+				</div>
+				<p class="item-title">
+					<p class="work-title">架空の鍼灸院のホームページ</p>
+				</p>
+			</a>
+		</div>
+		<div class="row">
+			<a href="work3.html" class="item">
+				<div class="sample1">
+					<img class="test-img" src="img/work-img3.png" alt="サムネ" />
+				</div>
+				<p class="item-title">
+					<p class="work-title">後払い決済情報記録アプリ</p>
+				</p>
+			</a>
+			<a href="work3.html" class="item dummy">
+				<div class="sample1">
+					<img class="test-img" src="img/work-img3.png" alt="サムネ" />
+				</div>
+				<p class="item-title">
+					<p class="work-title">後払い決済情報を記録するための<br>アプリケーション「後払いチェッカー」</p>
+				</p>
+			</a>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-box">
+			Copyright © 2022 Koki Motomura.
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/hamburger.js"></script>
+</body>
+</html>

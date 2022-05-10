@@ -1,0 +1,27 @@
+body {
+  background-color: #8B6E5E;
+  font-size: 16px;
+}
+body main .work-title2 {
+  padding-top: 140px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+body main .work-img {
+  text-align: center;
+}
+body main .work-img img {
+  max-width: 960px;
+  width: 100%;
+  border: 3px #FFE5CE solid;
+}
+body main table {
+  margin: 20px auto;
+}
+@media screen and (max-width: 759px) {
+  body main {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=work.css.map */

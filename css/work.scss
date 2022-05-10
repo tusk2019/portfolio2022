@@ -1,0 +1,26 @@
+body {
+    background-color: #8B6E5E;
+    font-size: 16px;
+    main {
+        .work-title2 {
+            padding-top: 140px;
+            padding-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .work-img {
+            text-align: center;
+            img {
+                max-width: 960px;
+                width: 100%;
+                border: 3px #FFE5CE solid;
+            }
+        }
+        table {
+            margin: 20px auto;
+        }
+        @media screen and (max-width: 759px) {
+            font-size: 14px;
+        }
+    }
+}
