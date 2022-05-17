@@ -18,9 +18,27 @@ body {
         }
         table {
             margin: 20px auto;
+            background-color: #FFE5CE;
+            td {
+                padding: 10px 0;
+                @media screen and (max-width: 759px) {
+                    padding: 5px 0;
+                }
+                @media screen and (max-width: 519px) {
+                    padding: 2.5px 0;
+                }
+            }
         }
         @media screen and (max-width: 759px) {
             font-size: 14px;
+        }
+        @media screen and (max-width: 519px) {
+            font-size: 12px;
+        }
+        .top-link {
+            display: block;
+            text-align: center;
+            padding-bottom: 20px;
         }
     }
 }

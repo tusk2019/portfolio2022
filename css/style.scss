@@ -63,6 +63,22 @@ header {
 	overflow:		hidden;
 	// margin:			10px 8px 10px 16px;
 	position:		relative;	/* 相対位置指定 */
+  @media screen and (max-width: 1090px) {
+    width: 290px;
+    height: 207px;
+  }
+  @media screen and (max-width: 959px) {
+    width: 350px;
+    height: 250px;
+  }
+  @media screen and (max-width: 739px) {
+    width: 225px;
+    height: 160.5px;
+  }
+  @media screen and (max-width: 519px) {
+    width: 315px;
+    height: 200px;
+  }
 }
 .sample1 .caption {
 	text-align: 		center;
@@ -109,6 +125,9 @@ header {
   font-size: 20px;
   line-height: 2.5;
   font-weight: bold;
+  @media screen and (max-width: 1090px) {
+    font-size: 16px;
+  }
 }
 .explanation-ul {
   display: none;
@@ -276,10 +295,17 @@ header {
     .item {
       display: block;
       @media screen and (max-width: 1090px) {
-        width: unset;
+        width: 290px;
+      }
+      @media screen and (max-width: 959px) {
+        width: 350px;
+      }
+      @media screen and (max-width: 739px) {
+        width: 225px;
       }
       @media screen and (max-width: 519px) {
         margin-bottom: 40px;
+        width: unset;
       }
       .item-title {
         height: auto;
@@ -289,6 +315,9 @@ header {
     .dummy {
       opacity: 0;
       pointer-events: none;
+      @media screen and (max-width: 519px) {
+        display: none;
+      }
     }
   }
 }

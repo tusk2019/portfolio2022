@@ -21,9 +21,9 @@
             後払い決済情報を記録するためのアプリケーション「後払いチェッカー」
         </p>
         <div class="work-img">
-            <img src="img/work-img3.png" alt="作品のサムネイル">
+            <img id="workImg" src="img/work-img3.png" alt="作品のサムネイル">
         </div>
-        <table>
+        <table class="work-info">
             <tbody>
                 <tr>
                     <td>サイトURL</td>
@@ -64,11 +64,22 @@
                 </tr>
             </tbody>
         </table>
+        <a class="top-link" href="index.html">トップに戻る</a>
     </main>
     <footer>
 		<div class="footer-box">
 			Copyright © 2022 Koki Motomura.
 		</div>
 	</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            //ウインドウ読み込み時とリサイズ時に発動
+            $(window).on('load resize', function() {
+                var bodyW = $('body').width();
+                $('#workImg').width(bodyW - 6);
+            });
+        });
+    </script>
 </body>
 </html>

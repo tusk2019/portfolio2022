@@ -83,6 +83,30 @@ header .site-logo {
   position: relative;
   /* 相対位置指定 */
 }
+@media screen and (max-width: 1090px) {
+  .sample1 {
+    width: 290px;
+    height: 207px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .sample1 {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 739px) {
+  .sample1 {
+    width: 225px;
+    height: 160.5px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .sample1 {
+    width: 315px;
+    height: 200px;
+  }
+}
 
 .sample1 .caption {
   text-align: center;
@@ -141,6 +165,11 @@ header .site-logo {
   font-size: 20px;
   line-height: 2.5;
   font-weight: bold;
+}
+@media screen and (max-width: 1090px) {
+  .work-title {
+    font-size: 16px;
+  }
 }
 
 .explanation-ul {
@@ -339,12 +368,23 @@ header .site-logo {
 }
 @media screen and (max-width: 1090px) {
   .wrapper .row .item {
-    width: unset;
+    width: 290px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .wrapper .row .item {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 739px) {
+  .wrapper .row .item {
+    width: 225px;
   }
 }
 @media screen and (max-width: 519px) {
   .wrapper .row .item {
     margin-bottom: 40px;
+    width: unset;
   }
 }
 .wrapper .row .item .item-title {
@@ -354,6 +394,11 @@ header .site-logo {
 .wrapper .row .dummy {
   opacity: 0;
   pointer-events: none;
+}
+@media screen and (max-width: 519px) {
+  .wrapper .row .dummy {
+    display: none;
+  }
 }
 
 footer {

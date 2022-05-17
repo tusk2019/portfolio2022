@@ -21,7 +21,7 @@
             架空の鍼灸院のホームページ
         </p>
         <div class="work-img">
-            <img src="img/work-img2.png" alt="作品のサムネイル">
+            <img id="workImg" src="img/work-img2.png" alt="作品のサムネイル">
         </div>
         <table>
             <tbody>
@@ -31,7 +31,7 @@
                 </tr>
                 <tr>
                     <td>制作期間</td>
-                    <td>4月3日〜4月4日</td>
+                    <td>2022年 4月3日〜4月4日、5月15日〜5月16日（お問い合わせフォーム追加）</td>
                 </tr>
                 <tr>
                     <td>使用技術</td>
@@ -49,11 +49,22 @@
                 </tr>
             </tbody>
         </table>
+        <a class="top-link" href="index.html">トップに戻る</a>
     </main>
     <footer>
 		<div class="footer-box">
 			Copyright © 2022 Koki Motomura.
 		</div>
 	</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            //ウインドウ読み込み時とリサイズ時に発動
+            $(window).on('load resize', function() {
+                var bodyW = $('body').width();
+                $('#workImg').width(bodyW - 6);
+            });
+        });
+    </script>
 </body>
 </html>

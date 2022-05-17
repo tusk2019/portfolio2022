@@ -18,10 +18,34 @@ body main .work-img img {
 }
 body main table {
   margin: 20px auto;
+  background-color: #FFE5CE;
+}
+body main table td {
+  padding: 10px 0;
+}
+@media screen and (max-width: 759px) {
+  body main table td {
+    padding: 5px 0;
+  }
+}
+@media screen and (max-width: 519px) {
+  body main table td {
+    padding: 2.5px 0;
+  }
 }
 @media screen and (max-width: 759px) {
   body main {
     font-size: 14px;
   }
+}
+@media screen and (max-width: 519px) {
+  body main {
+    font-size: 12px;
+  }
+}
+body main .top-link {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=work.css.map */
